@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.settlelahwaisiong">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".adminchooserequest"></activity>
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".adminAcceptReject" />
+        <activity android:name=".register_houseowner" />
+        <activity android:name=".adminLogin" />
+        <activity android:name=".admin_main" />
+        <activity android:name=".plumber_services" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".DetailsActivity2" />
+        <activity android:name=".maintenance_services" />
+        <activity android:name=".forgot_pass2" />
+        <activity android:name=".Problem_faced_1" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".LoginPage1" />
+        <activity android:name=".ChooseUser" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BeneficiaryListActivity"
+            android:label="Beneficiary Details"
+            android:parentActivityName=".adminAcceptReject"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".adminAcceptReject" />
+        </activity>
+        <activity
+            android:name=".ForgotListActivity"
+            android:label="Forgot Details"
+            android:parentActivityName=".adminAcceptReject"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".forgot_pass2" />
+        </activity>
+
+        <activity android:name=".TakePicture">
+        </activity>
+        <activity android:name=".DetailsActivity3">
+
+        </activity>
+        <provider
+            android:name=".ImagesProvider"
+            android:authorities="com.example.settlelahwaisiong"
+            android:exported="true" />
+    </application>
+
+</manifest>

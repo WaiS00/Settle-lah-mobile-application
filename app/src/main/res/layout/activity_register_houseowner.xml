@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register_houseowner">
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="533dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="137dp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="574dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="635dp"
+        android:ems="10"
+        android:hint="House Owner's Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="513dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="450dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="292dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="367dp"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="416dp"
+        android:text="Please select a property : " />
+
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="245dp"
+        android:ems="10"
+        android:hint="Select Warranty Start Date"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/houseNumber"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="308dp"
+        android:ems="10"
+        android:hint="Property House Number"
+        android:inputType="number" />
+
+</RelativeLayout>

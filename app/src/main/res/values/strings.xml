@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Settle Lah</string>
+    <string name="app_name2">Maintenance Services</string>
+    <string name="title_activity_home_page">House Owner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="Services">Service</string>
+    <string name="country_prompt">Choose a Property</string>
+    <string name="hint_id">Phone Number</string>
+    <string name="hint_email">Defect Faced</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="beneficiaryaddress">Full House Address</string>
+    <string name="beneficiarycountry">Date for request service</string>
+    <string name="register_benef">Register Defect</string>
+    <string name="show_list_benef">List of Registered Defects</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Details</string>
+
+    <string name="hint_name">Name</string>
+    <string-array name="country_arrays">
+        <item>Desa Hills</item>
+        <item>Tiara Bukit</item>
+        <item>West Side</item>
+        <item>Pearl House</item>
+        <item>China Dom</item>
+        <item>Desa City</item>
+        <item>Bukit Razak</item>
+        <item>Radeon Residence</item>
+    </string-array>
+
+
+    <string name="hint_id1">Phone Number</string>
+    <string name="hint_email1">Password</string>
+    <string name="hint_password1">New Password</string>
+    <string name="hint_confirm_password1">Password</string>
+    <string name="beneficiaryaddress1">Full House Address</string>
+    <string name="beneficiarycountry1">Warranty Date</string>
+    <string name="register_benef1">Register Defect</string>
+    <string name="show_list_benef1">List of Registered Defects</string>
+    <string name="error_email_exists1">Email Already Exists</string>
+    <string name="error_message_name1">Enter Full Name</string>
+    <string name="error_message_email1">Enter Details</string>
+
+    <string name="hint_name1">Name</string>
+    <string name="uploadImages">Set your image</string>
+    <string name="action_pic">Pictures</string>
+</resources>

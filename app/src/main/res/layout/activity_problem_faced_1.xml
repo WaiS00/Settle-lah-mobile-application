@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".forgot_pass2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="393dp"
+        android:layout_height="82dp"
+        android:text="Services Provided"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <View
+        android:id="@+id/topbar"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#03CDC6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TopBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settle Lah !"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/topbar"
+        app:layout_constraintEnd_toEndOf="@+id/topbar"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/component_51__15" />
+
+    <ScrollView
+        android:layout_width="371dp"
+        android:layout_height="448dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.935">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:onClick="plumber"
+                app:srcCompat="@drawable/rectangle_21" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorAccent"
+                android:onClick="plumber"
+                android:text="Plumber Services"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:onClick="maintenance"
+                app:srcCompat="@drawable/scroll_group_8" />
+
+            <Button
+                android:id="@+id/login2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorAccent"
+                android:onClick="maintenance"
+                android:text="Maintenance Services"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="66dp"
+        android:layout_height="61dp"
+        android:background="#00FFFFFF"
+        android:onClick="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/TopBarText"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="@+id/topbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/back" />
+
+
+</android.support.constraint.ConstraintLayout>

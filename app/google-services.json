@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "745195275668",
+    "firebase_url": "https://settle-lah.firebaseio.com",
+    "project_id": "settle-lah",
+    "storage_bucket": "settle-lah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745195275668:android:b0e0c6f2aea1b670a7fb81",
+        "android_client_info": {
+          "package_name": "com.example.settlelahwaisiong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745195275668-194scs7fne3tfj2le5gsg7qm2u77mha7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.settlelahwaisiong",
+            "certificate_hash": "9a1013e70d5ec7399ce20c761551c91a7c2b331a"
+          }
+        },
+        {
+          "client_id": "745195275668-ol87demhuvsate8nb0ss70p7vudnnv2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFJ4g_uW7EzRuII148HH0x-SEtljPXf1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745195275668-ol87demhuvsate8nb0ss70p7vudnnv2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

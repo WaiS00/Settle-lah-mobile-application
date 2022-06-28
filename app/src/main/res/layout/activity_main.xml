@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:onClick="chooseuser"
+        android:shadowColor="#00000000"
+        android:text="Welcome To Settle Lah !"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="147dp"
+        android:layout_height="138dp"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:outlineProvider="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355"
+        app:srcCompat="@drawable/logo3" />
+
+</android.support.constraint.ConstraintLayout>
